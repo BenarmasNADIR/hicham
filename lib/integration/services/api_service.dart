@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../models/models.dart';
 
 class ApiService {
-  final String baseUrl = 'http://10.175.237.226:8000/api';
+  final String baseUrl = 'http://192.168.1.1:8000/api';
   String? _authToken;
 
   // Get stored token
